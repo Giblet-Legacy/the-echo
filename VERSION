@@ -2,4 +2,6 @@
 # Function: the current release version of this consumer. Advances only on freeze.
 # 1.0.0 — The Echo frozen. Tests pass (15/15).
 
-1.0.0
+# 1.1.0 — echo_v1_1.py frozen (SPEC_V1_1.md: P9 v3, P12 v3, P13 v2, P14 V3). Tests pass (21/21).
+
+1.1.0

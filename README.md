@@ -13,7 +13,7 @@ Tier:     Tier 1 — Consumer (The Mirror)
 Depends:  P9 Substrate (read-only), P12 Rules, P13 DataCube, P14 Leighton Engine
 Licence:  MSL-1.0
 Author:   James Gilbert (Giblets Forge)
-Status:   0.0.0-dev (in build, pre-freeze)
+Status:   1.0.0 frozen (echo.py). v1.1 (echo_v1_1.py, SPEC_V1_1.md) frozen at 1.1.0. Run `python echo_v1_1.py`.
 
 ## The three questions
 

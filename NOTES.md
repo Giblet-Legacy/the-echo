@@ -9,14 +9,19 @@ NOTES.md — open questions and decisions for The Echo.
   rejected, it reports the rejection; it does not simulate what would
   have happened if the gate were bypassed.
 - Reads P12's rule engine by creating a fresh `Engine`, registering
-  the node's current rules (loaded from the ledger), and calling
-  `evaluate` against the hypothetical capsule. This previews which
+  the rules and calling `evaluate` against the hypothetical capsule.
+  (Corrected 2026-11-13: v1.0.0 never used P12 and read rules from the
+  `--rules` file, not the ledger, as SPEC.md §1.2 says. v1.1 does use
+  P12, via rules_v3, on the same `--rules` file.) This previews which
   rules would fire without any of their actions taking effect.
 - Calls P14's `compute_lambda` to project how trust would evolve if
   the claim were committed. Reports the projected λ, not just the
   current λ.
 
 ## Open questions
+
+- Q4. Freeze v1.1.0? **Resolved 2026-11-13 — James: "freeze all".** Frozen on the laptop run; the S24 run is still to be confirmed. echo_v1_1.py built and green on the laptop
+  (21/21). Not yet run on the S24. Raised 2026-11-13. Owner: James.
 - Q1. Rule actions in preview: should the Echo show what each rule's
   action *would* do (by reading the rule's spec) or suppress them?
   v1.0.0 suppresses. Future: a "verbose" mode that describes the

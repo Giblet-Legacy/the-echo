@@ -8,6 +8,8 @@ it simulates what would happen if the claim were committed to the
 substrate — without committing anything. Read-only.
 
 ## The Immutable Rule
+Entry point from v1.1: `echo_v1_1.py` (SPEC_V1_1.md): P9 `substrate_v3`, P12 `rules_v3`, P13 `datacube_v2`, P14 `leighton_engine_v3`. `echo.py` is frozen v1.0.0.
+
 Never rewrite a primitive. Add a layer. You consume P13 (Keystone
 Gate), P12 (Rules), P14 (Leighton Engine), and P9 (Substrate read
 only). You do not rewrite them.
