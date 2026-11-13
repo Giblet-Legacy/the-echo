@@ -25,7 +25,7 @@ CHANGELOG.md — build history for The Echo, latest entry at top.
 
 ### Bad
 
-- Frozen on the laptop run alone (2026-11-13); the S24 run is still to be confirmed.
+- Frozen on the laptop run alone (2026-11-13); confirmed on the S24 by James, 2026-11-13.
 - v1.0.0 parsed P9's ISO 8601 `created_at` with `float()`, so on a real substrate every dream's age ran from 1970: drift was always the maximum (0.5). A broken rules file was silently "no rules". Pinned in test_echo_v1_1; fixed in v1.1.
 
 ### Ugly
