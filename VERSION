@@ -1,0 +1,5 @@
+# VERSION — the-echo (Tier 1: The Echo)
+# Function: the current release version of this consumer. Advances only on freeze.
+# 1.0.0 — The Echo frozen. Tests pass (15/15).
+
+1.0.0
